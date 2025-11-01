@@ -1,0 +1,72 @@
+
+{
+  "name": "user_subscription",
+  "title": "用户订阅",
+  "schemas": [
+    {
+      "name": "userId",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "planId",
+      "title": "订阅计划ID",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "订阅状态",
+      "type": "String"
+    },
+    {
+      "name": "currentPeriodStart",
+      "title": "当前周期开始",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "currentPeriodEnd",
+      "title": "当前周期结束",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "stripeSubscriptionId",
+      "title": "Stripe订阅ID",
+      "type": "String"
+    },
+    {
+      "name": "stripeCustomerId",
+      "title": "Stripe客户ID",
+      "type": "String"
+    },
+    {
+      "name": "cancelAtPeriodEnd",
+      "title": "周期结束取消",
+      "type": "Boolean"
+    },
+    {
+      "name": "paymentMethodId",
+      "title": "支付方式ID",
+      "type": "String"
+    },
+    {
+      "name": "subscriptionData",
+      "title": "订阅详情",
+      "type": "Object"
+    },
+    {
+      "name": "trialEnd",
+      "title": "试用结束时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "cancelledAt",
+      "title": "取消时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    }
+  ]
+}
+  

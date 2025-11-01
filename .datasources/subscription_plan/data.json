@@ -1,0 +1,151 @@
+
+[
+  {
+    "_id": "plan_free",
+    "name": "免费版",
+    "price": 0,
+    "currency": "USD",
+    "interval": "monthly",
+    "features": [
+      "基础智能体创建",
+      "每月3次模拟",
+      "基础报告生成",
+      "社区支持"
+    ],
+    "maxAgents": 3,
+    "maxReports": 5,
+    "stripePriceId": "price_free",
+    "isActive": true,
+    "trialDays": 0,
+    "description": "适合个人用户和小型项目，提供基础的AI博弈模拟功能",
+    "sortOrder": 1,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  },
+  {
+    "_id": "plan_starter",
+    "name": "入门版",
+    "price": 2900,
+    "currency": "USD",
+    "interval": "monthly",
+    "features": [
+      "无限智能体创建",
+      "每月50次模拟",
+      "高级报告生成",
+      "PDF导出",
+      "邮件支持"
+    ],
+    "maxAgents": 20,
+    "maxReports": 50,
+    "stripePriceId": "price_starter_monthly",
+    "isActive": true,
+    "trialDays": 7,
+    "description": "适合初创团队和中小企业，提供完整的AI博弈分析功能",
+    "sortOrder": 2,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  },
+  {
+    "_id": "plan_starter_yearly",
+    "name": "入门版(年付)",
+    "price": 29000,
+    "currency": "USD",
+    "interval": "yearly",
+    "features": [
+      "无限智能体创建",
+      "每月600次模拟",
+      "高级报告生成",
+      "PDF导出",
+      "邮件支持",
+      "年付8折优惠"
+    ],
+    "maxAgents": 20,
+    "maxReports": 600,
+    "stripePriceId": "price_starter_yearly",
+    "isActive": true,
+    "trialDays": 14,
+    "description": "年付版本，享受20%折扣，适合长期使用",
+    "sortOrder": 3,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  },
+  {
+    "_id": "plan_professional",
+    "name": "专业版",
+    "price": 9900,
+    "currency": "USD",
+    "interval": "monthly",
+    "features": [
+      "无限智能体创建",
+      "无限模拟次数",
+      "高级报告+洞察",
+      "API访问权限",
+      "团队协作功能",
+      "优先支持",
+      "自定义场景"
+    ],
+    "maxAgents": 100,
+    "maxReports": 999,
+    "stripePriceId": "price_professional_monthly",
+    "isActive": true,
+    "trialDays": 14,
+    "description": "适合专业分析师和大型企业，提供完整的AI太极矩阵功能",
+    "sortOrder": 4,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  },
+  {
+    "_id": "plan_professional_yearly",
+    "name": "专业版(年付)",
+    "price": 99000,
+    "currency": "USD",
+    "interval": "yearly",
+    "features": [
+      "无限智能体创建",
+      "无限模拟次数",
+      "高级报告+洞察",
+      "API访问权限",
+      "团队协作功能",
+      "优先支持",
+      "自定义场景",
+      "年付8折优惠"
+    ],
+    "maxAgents": 100,
+    "maxReports": 9999,
+    "stripePriceId": "price_professional_yearly",
+    "isActive": true,
+    "trialDays": 30,
+    "description": "年付专业版，享受20%折扣，适合企业长期使用",
+    "sortOrder": 5,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  },
+  {
+    "_id": "plan_enterprise",
+    "name": "企业版",
+    "price": 29900,
+    "currency": "USD",
+    "interval": "monthly",
+    "features": [
+      "无限智能体创建",
+      "无限模拟次数",
+      "企业级报告",
+      "API访问权限",
+      "团队协作+权限管理",
+      "专属客户经理",
+      "私有化部署选项",
+      "SLA保障",
+      "24/7技术支持"
+    ],
+    "maxAgents": 9999,
+    "maxReports": 99999,
+    "stripePriceId": "price_enterprise_monthly",
+    "isActive": true,
+    "trialDays": 30,
+    "description": "适合大型企业和机构，提供企业级AI博弈分析解决方案",
+    "sortOrder": 6,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000
+  }
+]
+  

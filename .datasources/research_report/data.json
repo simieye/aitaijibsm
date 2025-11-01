@@ -1,0 +1,218 @@
+
+[
+  {
+    "_id": "report_001",
+    "title": "新能源车企五年价格战深度分析",
+    "summary": "通过模拟比亚迪、特斯拉、蔚来、小鹏、理想、华为等6家头部企业的博弈行为，预测2025-2030年价格战演化路径。研究发现价格战将在2026年达到峰值，平均降价幅度达15-20%，技术差异化将成为避免同质化竞争的关键，政策补贴退坡将加速行业洗牌。",
+    "scenario": "2025-2030年中国新能源汽车市场竞争格局，主要参与者包括比亚迪、特斯拉、蔚来、小鹏、理想、华为等6家头部企业。市场渗透率从35%提升至65%，政策补贴逐步退坡，技术迭代加速，价格战与价值战并存。",
+    "agents": ["agent_001", "agent_005", "agent_003"],
+    "rounds": ["round_001", "round_002"],
+    "charts": {
+      "marketShare": {
+        "type": "line",
+        "data": {
+          "labels": ["2025Q1", "2025Q2", "2025Q3", "2025Q4", "2026Q1", "2026Q2"],
+          "datasets": [
+            {"label": "比亚迪", "data": [25.3, 27.1, 28.5, 29.2, 30.1, 31.5]},
+            {"label": "特斯拉", "data": [18.7, 17.2, 16.8, 16.5, 16.2, 15.8]},
+            {"label": "蔚来", "data": [8.2, 7.8, 7.5, 7.2, 7.0, 6.8]},
+            {"label": "小鹏", "data": [7.1, 6.9, 6.7, 6.5, 6.3, 6.1]},
+            {"label": "理想", "data": [9.4, 8.9, 8.6, 8.3, 8.1, 7.9]},
+            {"label": "华为", "data": [6.8, 8.1, 9.2, 10.1, 11.0, 12.2]}
+          ]
+        }
+      },
+      "priceTrend": {
+        "type": "bar",
+        "data": {
+          "labels": ["比亚迪", "特斯拉", "蔚来", "小鹏", "理想", "华为"],
+          "datasets": [
+            {"label": "2025价格降幅", "data": [10, 5, 8, 12, 7, 15]},
+            {"label": "2026价格降幅", "data": [15, 8, 12, 18, 10, 20]}
+          ]
+        }
+      }
+    },
+    "insights": {
+      "priceWarPeak": "2026年Q2价格战达到峰值，平均降价幅度18.5%",
+      "marketConsolidation": "预计2027年将有两家企业退出市场",
+      "techDifferentiation": "自动驾驶技术成为差异化竞争核心",
+      "policyImpact": "补贴退坡将加速行业洗牌，利好头部企业"
+    },
+    "recommendations": {
+      "shortTerm": ["比亚迪应继续价格战策略，抢占市场份额", "特斯拉需加快本土化降低成本", "蔚来应聚焦高端市场避免价格战"],
+      "mediumTerm": ["所有企业需加大自动驾驶研发投入", "建立差异化品牌定位避免同质化", "探索海外市场分散风险"],
+      "longTerm": ["行业将形成3-4家头部企业格局", "技术领先者将获得超额收益", "政策导向将决定最终格局"]
+    },
+    "isPublic": true,
+    "tags": ["新能源", "价格战", "战略分析", "市场预测", "竞争格局"],
+    "pdfUrl": "https://example.com/reports/report_001.pdf",
+    "confidence": 92,
+    "simulations": 127,
+    "participants": 6,
+    "type": "strategic",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "report_002",
+    "title": "跨境电商双十一促销策略博弈",
+    "summary": "分析亚马逊、TikTok Shop、Temu、Shein、阿里国际等5大平台的促销反应链，优化补贴策略。研究发现提前2周启动预热效果最佳，差异化补贴比统一折扣更有效，直播带货ROI高于传统广告3.2倍。",
+    "scenario": "2024年双十一购物节，中国跨境电商五大平台竞争格局。TikTok Shop宣布提前启动促销，亚马逊、Temu、Shein、阿里国际需要快速响应。涉及平台补贴、KOL合作、直播带货等多种营销手段。",
+    "agents": ["agent_002", "agent_004", "agent_003"],
+    "rounds": ["round_003"],
+    "charts": {
+      "promotionROI": {
+        "type": "radar",
+        "data": {
+          "labels": ["亚马逊", "TikTok Shop", "Temu", "Shein", "阿里国际"],
+          "datasets": [
+            {"label": "ROI", "data": [2.1, 4.8, 3.2, 3.9, 2.8]},
+            {"label": "转化率", "data": [3.2, 8.5, 5.1, 6.7, 4.3]}
+          ]
+        }
+      },
+      "customerAcquisition": {
+        "type": "line",
+        "data": {
+          "labels": ["预热期", "爆发期", "持续期", "收尾期"],
+          "datasets": [
+            {"label": "新客获取", "data": [12000, 85000, 45000, 18000]},
+            {"label": "老客复购", "data": [25000, 120000, 80000, 35000]}
+          ]
+        }
+      }
+    },
+    "insights": {
+      "optimalTiming": "提前14天启动预热效果最佳，转化率提升45%",
+      "channelEffectiveness": "直播带货ROI达4.8，远超传统广告",
+      "subsidyStrategy": "差异化补贴比统一折扣转化率高32%",
+      "competitiveResponse": "快速跟进策略比观望策略效果好28%"
+    },
+    "recommendations": {
+      "shortTerm": ["TikTok Shop应加大直播带货投入", "亚马逊需优化本土化策略", "Temu应聚焦价格敏感用户"],
+      "mediumTerm": ["建立差异化KOL矩阵", "优化供应链降低成本", "探索新兴市场机会"],
+      "longTerm": ["构建品牌护城河", "投资物流基础设施", "布局海外市场本土化"]
+    },
+    "isPublic": true,
+    "tags": ["跨境电商", "双十一", "营销策略", "直播带货", "促销策略"],
+    "pdfUrl": "https://example.com/reports/report_002.pdf",
+    "confidence": 87,
+    "simulations": 89,
+    "participants": 5,
+    "type": "marketing",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_002",
+    "createBy": "user_002",
+    "updateBy": "user_002"
+  },
+  {
+    "_id": "report_003",
+    "title": "AI初创公司A轮融资估值谈判",
+    "summary": "模拟创始人、VC、战略投资人、天使投资人等4方的谈判博弈，分析最优估值策略。研究发现首轮估值溢价应控制在20-30%区间，对赌条款设置需谨慎避免过度承诺，引入战略投资人可提升估值15-25%。",
+    "scenario": "AI大模型初创公司寻求A轮融资，估值2亿美元，出让15-20%股权。涉及创始人、顶级VC、战略投资人、天使投资人四方博弈。需要平衡估值、条款、投资人资源等多重因素。",
+    "agents": ["agent_001", "agent_003", "agent_002"],
+    "rounds": ["round_004"],
+    "charts": {
+      "valuationRange": {
+        "type": "bar",
+        "data": {
+          "labels": ["创始人期望", "VC报价", "战略投资人", "天使投资人"],
+          "datasets": [
+            {"label": "估值(百万美元)", "data": [200, 150, 180, 160]}
+          ]
+        }
+      },
+      "termComparison": {
+        "type": "horizontalBar",
+        "data": {
+          "labels": ["清算优先权", "反稀释条款", "董事会席位", "对赌条款"],
+          "datasets": [
+            {"label": "创始人接受度", "data": [70, 45, 80, 30]},
+            {"label": "投资人要求", "data": [90, 85, 60, 75]}
+          ]
+        }
+      }
+    },
+    "insights": {
+      "optimalValuation": "180-200百万美元为合理估值区间",
+      "strategicValue": "战略投资人可带来业务协同价值15-25%",
+      "termTradeoff": "对赌条款与估值溢价存在权衡关系",
+      "timingImpact": "市场窗口期对估值影响达20-30%"
+    },
+    "recommendations": {
+      "shortTerm": ["创始人应控制估值溢价在20-30%以内", "优先引入战略投资人提升业务价值", "谨慎设置对赌条款避免过度承诺"],
+      "mediumTerm": ["建立多元化投资人组合", "优化公司治理结构", "制定清晰的业务发展路径"],
+      "longTerm": ["为B轮融资预留空间", "建立长期投资人关系", "规划IPO时间表和路径"]
+    },
+    "isPublic": false,
+    "tags": ["AI初创", "A轮融资", "估值谈判", "投资分析", "条款设计"],
+    "pdfUrl": "https://example.com/reports/report_003.pdf",
+    "confidence": 94,
+    "simulations": 156,
+    "participants": 4,
+    "type": "investment",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_003",
+    "createBy": "user_003",
+    "updateBy": "user_003"
+  },
+  {
+    "_id": "report_004",
+    "title": "新消费品牌东南亚市场进入策略",
+    "summary": "分析本地经销商、KOL、消费者、监管机构、竞争对手等5方反应，制定分阶段进入策略。研究发现本土化适配是成功关键需投入30%预算，KOL合作ROI比传统广告高2.8倍，分三阶段进入可降低60%风险。",
+    "scenario": "中国新消费品牌进入东南亚市场，涉及印尼、泰国、越南三国。需要协调本地经销商、头部KOL、目标消费者、政府监管机构、现有竞争对手五方利益。面临文化差异、政策限制、竞争激烈等挑战。",
+    "agents": ["agent_004", "agent_002", "agent_001"],
+    "rounds": [],
+    "charts": {
+      "marketEntry": {
+        "type": "line",
+        "data": {
+          "labels": ["市场调研", "试点进入", "规模扩张", "深度本土化"],
+          "datasets": [
+            {"label": "风险系数", "data": [85, 65, 45, 25]},
+            {"label": "投入回报率", "data": [0, 1.2, 2.8, 4.5]}
+          ]
+        }
+      },
+      "channelROI": {
+        "type": "doughnut",
+        "data": {
+          "labels": ["KOL合作", "传统广告", "线下活动", "数字营销"],
+          "datasets": [
+            {"label": "ROI分布", "data": [45, 20, 15, 20]}
+          ]
+        }
+      }
+    },
+    "insights": {
+      "culturalAdaptation": "本土化适配需投入30%预算，成功率提升200%",
+      "KOLeffectiveness": "头部KOL合作ROI达3.2，远超传统广告",
+      "phasedApproach": "三阶段进入策略可降低60%市场风险",
+      "regulatoryCompliance": "提前6个月进行合规准备可降低80%政策风险"
+    },
+    "recommendations": {
+      "shortTerm": ["优先进入印尼市场，人口红利最大", "建立本土化团队，招募当地员工", "与头部KOL建立长期合作关系"],
+      "mediumTerm": ["建立区域供应链降低成本", "开发符合当地文化的产品", "建立品牌本土化认知"],
+      "longTerm": ["构建区域品牌领导地位", "投资当地基础设施", "探索其他新兴市场机会"]
+    },
+    "isPublic": true,
+    "tags": ["新消费", "东南亚", "市场进入", "本土化", "KOL营销"],
+    "pdfUrl": "https://example.com/reports/report_004.pdf",
+    "confidence": 89,
+    "simulations": 203,
+    "participants": 5,
+    "type": "expansion",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  }
+]
+  

@@ -1,0 +1,130 @@
+
+[
+  {
+    "_id": "agent_001",
+    "name": "张总-新能源CEO",
+    "avatar": "https://example.com/avatars/zhang.png",
+    "role": "CEO/创始人",
+    "personality": "激进型",
+    "isPublic": true,
+    "tags": ["新能源", "CEO", "战略决策", "激进投资"],
+    "description": "拥有15年新能源行业经验，成功带领两家独角兽企业上市。擅长战略规划和投资决策，在新能源领域有深度洞察。",
+    "behaviorProfile": {
+      "riskTolerance": "high",
+      "decisionSpeed": "fast",
+      "marketFocus": ["新能源", "储能", "电动汽车"],
+      "investmentStyle": "growth",
+      "communicationTone": "direct"
+    },
+    "sourceData": "LinkedIn公开数据 + 深度访谈",
+    "accuracy": 94,
+    "useCount": 127,
+    "status": "已训练",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "agent_002",
+    "name": "李博士-首席经济学家",
+    "role": "战略顾问",
+    "personality": "分析型",
+    "isPublic": false,
+    "tags": ["经济学", "政策分析", "宏观经济", "学术研究"],
+    "description": "前央行首席经济学家，20年宏观经济研究经验。专注于政策解读和市场趋势分析，为多家500强企业提供战略咨询。",
+    "behaviorProfile": {
+      "riskTolerance": "medium",
+      "decisionSpeed": "medium",
+      "marketFocus": ["宏观经济", "政策研究", "金融市场"],
+      "investmentStyle": "value",
+      "communicationTone": "analytical"
+    },
+    "sourceData": "学术论文 + 政策文件",
+    "accuracy": 0,
+    "useCount": 0,
+    "status": "训练中",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "agent_003",
+    "name": "王总监-投资合伙人",
+    "role": "投资总监",
+    "personality": "稳健型",
+    "isPublic": true,
+    "tags": ["风险投资", "稳健投资", "尽职调查", "投后管理"],
+    "description": "顶级VC合伙人，主导投资超过50个项目，其中12个成功IPO。擅长风险评估和投后管理，投资风格稳健。",
+    "behaviorProfile": {
+      "riskTolerance": "low",
+      "decisionSpeed": "slow",
+      "marketFocus": ["早期投资", "B2B SaaS", "消费升级"],
+      "investmentStyle": "balanced",
+      "communicationTone": "diplomatic"
+    },
+    "sourceData": "投资案例 + 市场数据",
+    "accuracy": 89,
+    "useCount": 89,
+    "status": "已训练",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "agent_004",
+    "name": "刘经理-产品经理",
+    "role": "产品经理",
+    "personality": "创新型",
+    "isPublic": false,
+    "tags": ["产品设计", "用户体验", "敏捷开发", "创新思维"],
+    "description": "资深产品经理，曾负责多个千万级用户产品。擅长用户需求洞察和产品创新，在用户体验设计方面有丰富经验。",
+    "behaviorProfile": {
+      "riskTolerance": "medium",
+      "decisionSpeed": "fast",
+      "marketFocus": ["产品设计", "用户体验", "敏捷开发"],
+      "investmentStyle": "innovation",
+      "communicationTone": "collaborative"
+    },
+    "sourceData": "产品文档 + 用户反馈",
+    "accuracy": 0,
+    "useCount": 0,
+    "status": "待训练",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "agent_005",
+    "name": "陈总-金融科技CEO",
+    "role": "CEO/创始人",
+    "personality": "创新型",
+    "isPublic": true,
+    "tags": ["金融科技", "区块链", "支付系统", "创新领导"],
+    "description": "金融科技独角兽创始人，成功打造行业领先的支付平台。在区块链和数字支付领域有深度技术背景和前瞻性视野。",
+    "behaviorProfile": {
+      "riskTolerance": "high",
+      "decisionSpeed": "fast",
+      "marketFocus": ["金融科技", "区块链", "数字支付"],
+      "investmentStyle": "disruptive",
+      "communicationTone": "visionary"
+    },
+    "sourceData": "企业内部数据 + 行业报告",
+    "accuracy": 91,
+    "useCount": 234,
+    "status": "已训练",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_002",
+    "createBy": "user_002",
+    "updateBy": "user_002"
+  }
+]
+  

@@ -1,0 +1,100 @@
+
+[
+  {
+    "_id": "sub_001",
+    "userId": "user_001",
+    "planId": "plan_starter",
+    "status": "active",
+    "currentPeriodStart": 1735689600000,
+    "currentPeriodEnd": 1738368000000,
+    "stripeSubscriptionId": "sub_1234567890",
+    "stripeCustomerId": "cus_1234567890",
+    "cancelAtPeriodEnd": false,
+    "paymentMethodId": "pm_1234567890",
+    "subscriptionData": {
+      "price": 2900,
+      "currency": "USD",
+      "interval": "monthly"
+    },
+    "trialEnd": null,
+    "cancelledAt": null,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "sub_002",
+    "userId": "user_002",
+    "planId": "plan_professional",
+    "status": "active",
+    "currentPeriodStart": 1735689600000,
+    "currentPeriodEnd": 1767225600000,
+    "stripeSubscriptionId": "sub_0987654321",
+    "stripeCustomerId": "cus_0987654321",
+    "cancelAtPeriodEnd": false,
+    "paymentMethodId": "pm_0987654321",
+    "subscriptionData": {
+      "price": 99000,
+      "currency": "USD",
+      "interval": "yearly"
+    },
+    "trialEnd": 1736371200000,
+    "cancelledAt": null,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_002",
+    "createBy": "user_002",
+    "updateBy": "user_002"
+  },
+  {
+    "_id": "sub_003",
+    "userId": "user_003",
+    "planId": "plan_free",
+    "status": "active",
+    "currentPeriodStart": 1735689600000,
+    "currentPeriodEnd": 1743542400000,
+    "stripeSubscriptionId": null,
+    "stripeCustomerId": null,
+    "cancelAtPeriodEnd": false,
+    "paymentMethodId": null,
+    "subscriptionData": {
+      "price": 0,
+      "currency": "USD",
+      "interval": "monthly"
+    },
+    "trialEnd": null,
+    "cancelledAt": null,
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_003",
+    "createBy": "user_003",
+    "updateBy": "user_003"
+  },
+  {
+    "_id": "sub_004",
+    "userId": "user_004",
+    "planId": "plan_starter",
+    "status": "cancelled",
+    "currentPeriodStart": 1733011200000,
+    "currentPeriodEnd": 1735689600000,
+    "stripeSubscriptionId": "sub_cancelled_001",
+    "stripeCustomerId": "cus_cancelled_001",
+    "cancelAtPeriodEnd": true,
+    "paymentMethodId": "pm_cancelled_001",
+    "subscriptionData": {
+      "price": 2900,
+      "currency": "USD",
+      "interval": "monthly"
+    },
+    "trialEnd": null,
+    "cancelledAt": 1735689600000,
+    "createdAt": 1733011200000,
+    "updatedAt": 1735689600000,
+    "owner": "user_004",
+    "createBy": "user_004",
+    "updateBy": "user_004"
+  }
+]
+  

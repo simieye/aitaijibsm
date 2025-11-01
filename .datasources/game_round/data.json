@@ -1,0 +1,240 @@
+
+[
+  {
+    "_id": "round_001",
+    "title": "新能源价格战第一轮",
+    "scenario": "2025年Q1，比亚迪率先降价10%，特斯拉、蔚来、小鹏、理想、华为需要做出响应策略",
+    "agents": ["agent_001", "agent_005", "agent_003"],
+    "roundIndex": 1,
+    "stateSnapshot": {
+      "marketShare": {
+        "比亚迪": 25.3,
+        "特斯拉": 18.7,
+        "蔚来": 8.2,
+        "小鹏": 7.1,
+        "理想": 9.4,
+        "华为": 6.8
+      },
+      "priceLevel": {
+        "比亚迪": 0.9,
+        "特斯拉": 1.0,
+        "蔚来": 1.15,
+        "小鹏": 1.05,
+        "理想": 1.1,
+        "华为": 1.08
+      },
+      "profitMargin": {
+        "比亚迪": 12.5,
+        "特斯拉": 18.2,
+        "蔚来": 8.1,
+        "小鹏": 9.3,
+        "理想": 15.6,
+        "华为": 14.2
+      }
+    },
+    "actions": {
+      "agent_001": {
+        "action": "跟进降价",
+        "intensity": 0.8,
+        "reasoning": "市场份额优先，必须跟进避免流失客户"
+      },
+      "agent_005": {
+        "action": "差异化竞争",
+        "intensity": 0.6,
+        "reasoning": "通过技术创新维持溢价，避免价格战"
+      },
+      "agent_003": {
+        "action": "观望策略",
+        "intensity": 0.3,
+        "reasoning": "等待市场反应，寻找最佳介入时机"
+      }
+    },
+    "rewards": {
+      "agent_001": 15.2,
+      "agent_005": 12.8,
+      "agent_003": 8.5
+    },
+    "duration": 180,
+    "reportId": "report_001",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "round_002",
+    "title": "新能源价格战第二轮",
+    "scenario": "第一轮降价后市场反应强烈，各品牌开始调整策略，华为宣布进入价格战",
+    "agents": ["agent_001", "agent_005", "agent_003"],
+    "roundIndex": 2,
+    "stateSnapshot": {
+      "marketShare": {
+        "比亚迪": 27.1,
+        "特斯拉": 17.2,
+        "蔚来": 7.8,
+        "小鹏": 6.9,
+        "理想": 8.9,
+        "华为": 8.1
+      },
+      "priceLevel": {
+        "比亚迪": 0.85,
+        "特斯拉": 0.95,
+        "蔚来": 1.1,
+        "小鹏": 1.0,
+        "理想": 1.05,
+        "华为": 0.92
+      },
+      "profitMargin": {
+        "比亚迪": 10.2,
+        "特斯拉": 16.1,
+        "蔚来": 6.8,
+        "小鹏": 7.9,
+        "理想": 13.4,
+        "华为": 11.8
+      }
+    },
+    "actions": {
+      "agent_001": {
+        "action": "继续降价",
+        "intensity": 0.9,
+        "reasoning": "乘胜追击，扩大领先优势"
+      },
+      "agent_005": {
+        "action": "技术升级",
+        "intensity": 0.7,
+        "reasoning": "通过FSD升级维持差异化优势"
+      },
+      "agent_003": {
+        "action": "激进降价",
+        "intensity": 0.95,
+        "reasoning": "后发制人，快速抢占市场份额"
+      }
+    },
+    "rewards": {
+      "agent_001": 18.5,
+      "agent_005": 14.2,
+      "agent_003": 16.8
+    },
+    "duration": 240,
+    "reportId": "report_001",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_001",
+    "createBy": "user_001",
+    "updateBy": "user_001"
+  },
+  {
+    "_id": "round_003",
+    "title": "跨境电商促销策略第一轮",
+    "scenario": "2024年双十一前夕，TikTok Shop宣布提前启动促销，亚马逊、Temu、Shein需要响应",
+    "agents": ["agent_002", "agent_004", "agent_003"],
+    "roundIndex": 1,
+    "stateSnapshot": {
+      "marketShare": {
+        "亚马逊": 35.2,
+        "TikTok Shop": 18.7,
+        "Temu": 12.4,
+        "Shein": 15.8,
+        "阿里国际": 18.9
+      },
+      "promotionIntensity": {
+        "亚马逊": 0.3,
+        "TikTok Shop": 0.8,
+        "Temu": 0.6,
+        "Shein": 0.5,
+        "阿里国际": 0.4
+      },
+      "customerAcquisition": {
+        "亚马逊": 8.2,
+        "TikTok Shop": 15.7,
+        "Temu": 12.3,
+        "Shein": 11.8,
+        "阿里国际": 9.4
+      }
+    },
+    "actions": {
+      "agent_002": {
+        "action": "跟进促销",
+        "intensity": 0.7,
+        "reasoning": "保护市场份额，避免被抢占"
+      },
+      "agent_004": {
+        "action": "差异化促销",
+        "intensity": 0.8,
+        "reasoning": "通过内容营销和KOL合作提升转化"
+      },
+      "agent_003": {
+        "action": "价格战",
+        "intensity": 0.9,
+        "reasoning": "利用供应链优势打价格战"
+      }
+    },
+    "rewards": {
+      "agent_002": 12.1,
+      "agent_004": 14.5,
+      "agent_003": 16.2
+    },
+    "duration": 300,
+    "reportId": "report_002",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_002",
+    "createBy": "user_002",
+    "updateBy": "user_002"
+  },
+  {
+    "_id": "round_004",
+    "title": "AI初创公司A轮融资第一轮谈判",
+    "scenario": "AI大模型初创公司寻求A轮融资，创始人与多家VC进行初步接触和估值谈判",
+    "agents": ["agent_001", "agent_003", "agent_002"],
+    "roundIndex": 1,
+    "stateSnapshot": {
+      "companyValuation": {
+        "创始人期望": 200000000,
+        "VC报价": 150000000,
+        "市场平均": 180000000
+      },
+      "equityOffer": {
+        "创始人愿意出让": 15,
+        "VC要求": 20,
+        "市场标准": 18
+      },
+      "termSheet": {
+        "清算优先权": 1.5,
+        "反稀释条款": "标准",
+        "董事会席位": 2
+      }
+    },
+    "actions": {
+      "agent_001": {
+        "action": "坚持高估值",
+        "intensity": 0.8,
+        "reasoning": "技术领先，市场前景广阔"
+      },
+      "agent_003": {
+        "action": "压价策略",
+        "intensity": 0.7,
+        "reasoning": "市场不确定性高，需要风险对冲"
+      },
+      "agent_002": {
+        "action": "平衡策略",
+        "intensity": 0.6,
+        "reasoning": "寻找双方都能接受的中间点"
+      }
+    },
+    "rewards": {
+      "agent_001": 8.5,
+      "agent_003": 7.2,
+      "agent_002": 8.1
+    },
+    "duration": 420,
+    "reportId": "report_003",
+    "createdAt": 1735689600000,
+    "updatedAt": 1735689600000,
+    "owner": "user_003",
+    "createBy": "user_003",
+    "updateBy": "user_003"
+  }
+]
+  

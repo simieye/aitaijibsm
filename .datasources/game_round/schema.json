@@ -1,0 +1,56 @@
+
+{
+  "name": "game_round",
+  "title": "博弈回合",
+  "schemas": [
+    {
+      "name": "title",
+      "title": "回合标题",
+      "type": "String"
+    },
+    {
+      "name": "scenario",
+      "title": "博弈场景",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "agents",
+      "title": "参与智能体",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "roundIndex",
+      "title": "回合序号",
+      "type": "Number"
+    },
+    {
+      "name": "stateSnapshot",
+      "title": "状态快照",
+      "type": "Object"
+    },
+    {
+      "name": "actions",
+      "title": "行动记录",
+      "type": "Object"
+    },
+    {
+      "name": "rewards",
+      "title": "奖励记录",
+      "type": "Object"
+    },
+    {
+      "name": "duration",
+      "title": "持续时间(秒)",
+      "type": "Number"
+    },
+    {
+      "name": "reportId",
+      "title": "关联报告ID",
+      "type": "String"
+    }
+  ]
+}
+  

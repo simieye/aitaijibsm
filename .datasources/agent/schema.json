@@ -1,0 +1,71 @@
+
+{
+  "name": "agent",
+  "title": "AI智能体",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "智能体名称",
+      "type": "String"
+    },
+    {
+      "name": "avatar",
+      "title": "头像",
+      "type": "Image"
+    },
+    {
+      "name": "role",
+      "title": "角色定位",
+      "type": "String"
+    },
+    {
+      "name": "personality",
+      "title": "决策风格",
+      "type": "String"
+    },
+    {
+      "name": "isPublic",
+      "title": "是否公开",
+      "type": "Boolean"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "description",
+      "title": "详细描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "behaviorProfile",
+      "title": "行为配置",
+      "type": "Object"
+    },
+    {
+      "name": "sourceData",
+      "title": "训练数据源",
+      "type": "String"
+    },
+    {
+      "name": "accuracy",
+      "title": "准确率",
+      "type": "Number"
+    },
+    {
+      "name": "useCount",
+      "title": "使用次数",
+      "type": "Number"
+    },
+    {
+      "name": "status",
+      "title": "训练状态",
+      "type": "String"
+    }
+  ]
+}
+  

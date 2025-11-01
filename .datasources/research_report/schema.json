@@ -1,0 +1,92 @@
+
+{
+  "name": "research_report",
+  "title": "研究报告",
+  "schemas": [
+    {
+      "name": "title",
+      "title": "报告标题",
+      "type": "String"
+    },
+    {
+      "name": "summary",
+      "title": "执行摘要",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "scenario",
+      "title": "博弈场景",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "agents",
+      "title": "参与智能体",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "rounds",
+      "title": "关联回合",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "charts",
+      "title": "图表数据",
+      "type": "Object"
+    },
+    {
+      "name": "insights",
+      "title": "洞察发现",
+      "type": "Object"
+    },
+    {
+      "name": "recommendations",
+      "title": "策略建议",
+      "type": "Object"
+    },
+    {
+      "name": "isPublic",
+      "title": "是否公开",
+      "type": "Boolean"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "pdfUrl",
+      "title": "PDF下载链接",
+      "type": "Url"
+    },
+    {
+      "name": "confidence",
+      "title": "置信度",
+      "type": "Number"
+    },
+    {
+      "name": "simulations",
+      "title": "模拟次数",
+      "type": "Number"
+    },
+    {
+      "name": "participants",
+      "title": "参与方数量",
+      "type": "Number"
+    },
+    {
+      "name": "type",
+      "title": "报告类型",
+      "type": "String"
+    }
+  ]
+}
+  

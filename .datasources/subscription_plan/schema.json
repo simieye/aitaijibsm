@@ -1,0 +1,71 @@
+
+{
+  "name": "subscription_plan",
+  "title": "订阅计划",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "套餐名称",
+      "type": "String"
+    },
+    {
+      "name": "price",
+      "title": "价格(分)",
+      "type": "Number"
+    },
+    {
+      "name": "currency",
+      "title": "货币代码",
+      "type": "String"
+    },
+    {
+      "name": "interval",
+      "title": "计费周期",
+      "type": "String"
+    },
+    {
+      "name": "features",
+      "title": "功能特性",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "maxAgents",
+      "title": "最大智能体数",
+      "type": "Number"
+    },
+    {
+      "name": "maxReports",
+      "title": "最大报告数",
+      "type": "Number"
+    },
+    {
+      "name": "stripePriceId",
+      "title": "Stripe价格ID",
+      "type": "String"
+    },
+    {
+      "name": "isActive",
+      "title": "是否启用",
+      "type": "Boolean"
+    },
+    {
+      "name": "trialDays",
+      "title": "试用天数",
+      "type": "Number"
+    },
+    {
+      "name": "description",
+      "title": "套餐描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "sortOrder",
+      "title": "排序权重",
+      "type": "Number"
+    }
+  ]
+}
+  
